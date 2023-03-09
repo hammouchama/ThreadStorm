@@ -1,0 +1,2 @@
+MainServer.host=192.168.196.44
+MainServer.port=5200

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Frames.Frem1">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="0" bottom="10" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="850" height="480"/>
+    </constraints>
+    <properties>
+      <background color="-13811899"/>
+      <font name="Consolas" size="16" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="de7f2" class="javax.swing.JLabel" binding="welcomeToLabel" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13811899"/>
+          <font name="Consolas" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="WelcomeTo"/>
+        </properties>
+      </component>
+      <component id="fe038" class="javax.swing.JLabel" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13811899"/>
+          <font name="Consolas" size="17" style="1"/>
+          <foreground color="-1"/>
+          <text value="Type your Name"/>
+        </properties>
+      </component>
+      <vspacer id="878be">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e8b49" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="150" height="150"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-589832"/>
+          <font name="Consolas" size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="10"/>
+        </properties>
+      </component>
+      <component id="b50ff" class="javax.swing.JButton" binding="enterButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9906529"/>
+          <foreground color="-16777216"/>
+          <text value="Enter"/>
+        </properties>
+      </component>
+      <vspacer id="9011c">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ec24d">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="55616">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="bcfde" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <maximum-size width="280" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="Icons/Logo_ThreadStorm_280x30.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="91ca9">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="ec78f">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="16e57">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="9dbdf">
+        <constraints>
+          <grid row="0" column="4" row-span="10" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="400"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="d42ea">
+        <constraints>
+          <grid row="0" column="0" row-span="10" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="400"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
