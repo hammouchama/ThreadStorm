@@ -37,17 +37,17 @@ ___
 MainServer
 
 ```bash
-java MainServer/MainServer.java
+java MainServer/src/MainServer/MainServer.java 
 ```
 
 Worker
 
 ```bash
-java Worker/Worker.java
+java Worker/src/Worker/Worker.java 
 ```
 
 Client
 
 ```bash
-java Client/Client.java
+java Client/src/main/Main.java
 ```
